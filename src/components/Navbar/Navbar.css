@@ -1,8 +1,11 @@
 .navbar{
+    background-color: rgb(214, 229, 250);
     display: flex;
     justify-content: space-around;
-    padding: 20px;
-    box-shadow: 0 1px 2px 3px black;
+    padding: 2px;
+    box-shadow: 0 1px 20px 2px black;
+    border-radius: 5px;
+
 }
 .nav-logo{
     display: flex;
@@ -10,12 +13,13 @@
     gap: 10px;
 }
 .nav-logo p{
-    color: red;
-    font-size: 40px;
+    color: rgb(227, 73, 132);
+    font-size: 38px;
     font-weight: 500;
 }
-.nav-manu{
+.nav-menu{
     display: flex;
+    list-style: none;
     align-items: center;
     gap: 50px;
     color: #626262;
@@ -31,11 +35,12 @@
     gap: 3px;
 }
 .nav-manu hr{
+    padding: none;
     border: none;
     width: 80%;
     border-radius: 10px;
-    height: 3px;
-    background-color: #ff4141;
+    height: 2px;
+    background-color: red;
 }
 .log-in{
     display: flex;
@@ -43,7 +48,7 @@
 }
 .log-in button{
     width: 157px;
-    height: 58px;
+    height: 50px;
     outline: none;
     border: 1px solid #7a7a7a;
     border-radius: 75px;

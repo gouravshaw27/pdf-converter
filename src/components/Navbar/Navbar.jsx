@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 
-import logo from '../Assets/img 1.jpg'
+import '../Assets/img 1.jpg'
 
 
 const Navbar = () => {
@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="nav-logo">
-        <img src="{logo}" alt="" />
+        <img src="img 1.jpg" alt="" />
         <p>PDF-Converter</p>
       </div>
       
@@ -22,7 +22,7 @@ const Navbar = () => {
           <li onClick={()=>{setHome('Contact-us')}}>Contact-us{home==='Contact-us'?<hr/>:<></>}</li>
         </ul>
       <div className="log-in">
-        <button>Log-in</button></div>
+        <button className='btn btn-success'>Log-in</button></div>
     </div>
   )
 }
