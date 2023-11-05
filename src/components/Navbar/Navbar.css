@@ -31,11 +31,19 @@
 .nav-menu > li > div{
     padding: none;
     border: none;
-    width: 100%;
+    width: 0;
     border-radius: 0.6rem;
     height: 0.1rem;
     margin-bottom: 0.5rem;
-    background-color: red;
+    background-color: rgb(218, 49, 49);
+    animation: left-to-right 0.5s ease-in forwards;
+}
+
+@keyframes left-to-right {
+    100% {
+    transform: scaleX(1);
+    width: 100%;
+    }
 }
 
 .nav-menu li:hover{
