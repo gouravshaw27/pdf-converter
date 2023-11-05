@@ -36,7 +36,7 @@
     height: 0.1rem;
     margin-bottom: 0.5rem;
     background-color: rgb(218, 49, 49);
-    animation: left-to-right 0.9s ease-in forwards;
+    animation: left-to-right 0.3s ease-in forwards;
 }
 
 @keyframes left-to-right {
