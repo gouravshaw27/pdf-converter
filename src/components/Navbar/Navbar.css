@@ -2,29 +2,29 @@
     background-color: rgb(214, 229, 250);
     display: flex;
     justify-content: space-around;
-    padding: 2px;
+    padding: 0.13rem;
     /* box-shadow: 0 1px 20px 2px black; */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 5px;
+    border-radius: 0.5rem;
 
 }
 .nav-logo{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap:0.6rem;
 }
 .nav-logo p{
     color: rgb(227, 73, 132);
-    font-size: 38px;
+    font-size: 2.2rem;
     font-weight: 500;
 }
 .nav-menu{
     display: flex;
     list-style: none;
     align-items: center;
-    gap: 50px;
+    gap: 3.1rem;
     color: #626262;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
@@ -32,7 +32,7 @@
     padding: none;
     border: none;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 0.6rem;
     height: 0.1rem;
     margin-bottom: 0.5rem;
     background-color: red;
@@ -43,13 +43,8 @@
 }
 
 .menu-item-active{
-    font-weight:bold;
+    font-weight:bolder;
 }
-
-.change-color:hover{
-    color: #262525;
-    font-weight:bold;
-  }
 
 
 .log-in{
@@ -57,13 +52,13 @@
     align-items: center;
 }
 .log-in button{
-    width: 157px;
-    height: 50px;
+    width: 9.8rem;
+    height: 3.2rem;
     outline: none;
-    border: 1px solid #7a7a7a;
-    border-radius: 75px;
+    border: 1px solid rgb(227, 73, 132);
+    border-radius: 4.6rem;
     color: #515151;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 500;
     background: white;
     cursor: pointer;

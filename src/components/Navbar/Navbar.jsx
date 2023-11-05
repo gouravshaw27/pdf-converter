@@ -22,7 +22,7 @@ const Navbar = () => {
           <li className={activeTab==='Contact-us'?'menu-item-active':""} onClick={()=>{setActiveTab('Contact-us')}}>Contact-us{activeTab==='Contact-us'?<div></div>:<></>}</li>
         </ul>
       <div className="log-in">
-        <button className='btn btn-success'>Log-in</button></div>
+        <button className='btn btn-outline-danger'>Log-in</button></div>
     </div>
   )
 }
