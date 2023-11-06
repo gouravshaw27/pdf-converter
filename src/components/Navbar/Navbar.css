@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-around;
     padding: 0.13rem;
-    /* box-shadow: 0 1px 20px 2px black; */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 0.5rem;
 
@@ -12,6 +11,12 @@
     display: flex;
     align-items: center;
     gap:0.6rem;
+}
+.nav-logo img{
+    position: relative;
+    height: 4.375rem;
+    width: 4.375rem;
+    left: -1.875rem;
 }
 .nav-logo p{
     color: rgb(227, 73, 132);
