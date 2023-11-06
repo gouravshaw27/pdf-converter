@@ -8,8 +8,8 @@ const Login = () => {
             <h2>Log-in</h2>
             <div className="fields">
                 <input type="text" placeholder='Your Name' />
-                <input type="text" placeholder='E-mail' />
-                <input type="text" placeholder='Password' />
+                <input type="email" placeholder='E-mail' />
+                <input type="password" placeholder='Password' />
             </div>
             <button>Log-in</button>
             <p className='login-login'>Already have an account? <span>Login</span></p>
