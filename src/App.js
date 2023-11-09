@@ -1,6 +1,8 @@
 import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter,Routes,Route,  } from 'react-router-dom'
 import Login from "./pages/login";
+import Convert from "./pages/Convert"
+
 
 
 
@@ -10,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Navbar/>
         <Routes>
-          <Route path="/" element={<home/>}/>
+          <Route path="/" element={<Convert/>}/>
           <Route path="/login" element={<Login/>}/>
        </Routes>
       </BrowserRouter>
