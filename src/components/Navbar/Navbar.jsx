@@ -7,7 +7,7 @@ import { Outlet,Link } from 'react-router-dom';
 
 const Navbar = () => {
 
-  const[activeTab,setActiveTab] = useState('Home');
+  const[activeTab,setActiveTab] = useState('Convert');
   
   return (
     <div className="navbar">
@@ -17,9 +17,9 @@ const Navbar = () => {
       </div>
       
         <ul className="nav-menu">
-          <li className={activeTab==='Home'?'menu-item-active':""} onClick={()=>{setActiveTab('Home')}}><Link style={{textDecoration:'none', color:'#626262'}}to='/home'>Home </Link>{activeTab==='Home'?<div></div>:<></>}</li>
-          <li className={activeTab==='Service'?'menu-item-active':""} onClick={()=>{setActiveTab('Service')}}>Service{activeTab==='Service'?<div></div>:<></>}</li>
-          <li className={activeTab==='About'?'menu-item-active':""} onClick={()=>{setActiveTab('About')}}>About{activeTab==='About'?<div></div>:<></>}</li>
+          <li className={activeTab==='Convert'?'menu-item-active':""} onClick={()=>{setActiveTab('Convert')}}><Link style={{textDecoration:'none', color:'#626262'}}to='/'>Convert</Link>{activeTab==='Convert'?<div></div>:<></>}</li>
+          <li className={activeTab==='Split'?'menu-item-active':""} onClick={()=>{setActiveTab('Split')}}>Split{activeTab==='Split'?<div></div>:<></>}</li>
+          <li className={activeTab==='Compress'?'menu-item-active':""} onClick={()=>{setActiveTab('Compress')}}>Compress{activeTab==='Compress'?<div></div>:<></>}</li>
           <li className={activeTab==='Contact-us'?'menu-item-active':""} onClick={()=>{setActiveTab('Contact-us')}}>Contact-us{activeTab==='Contact-us'?<div></div>:<></>}</li>
         </ul>
       <div className="log-in">

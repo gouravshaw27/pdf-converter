@@ -1,0 +1,79 @@
+.main {
+    height: 37.813rem;
+    position: relative;
+    align-items: center;
+    padding-top: 3.125rem;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    padding: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+
+.head h1 {
+    position: relative;
+    left: 34.375rem;
+}
+.input-box{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 21.875rem;
+    width: 45rem;
+    height: 16.563rem;
+    border-radius: 0.625rem;
+    background-color: #774360;
+
+}
+
+.input {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43.75rem;
+    height: 15.625rem;
+    border-style:dashed;
+    border-color: white;
+    background-color: #cd4e94;
+    border-radius: 0.625rem;
+
+}
+.input input{
+    display: none;
+}
+.choose-file{
+    width: 9.375rem;
+    height: 2.5rem;
+    border: 0.125rem;
+    border-radius: 5px 0px 0px 5px;
+}
+.expand{
+    font-size: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius : 0px 5px 5px 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+   border-color: grey;
+}
+.text{
+    width: 8.125rem;
+    position: relative;
+    color: white;
+    top: -6.25rem;
+    left: 40.625rem;
+}
+.para{
+    height: auto;
+    width: 43.75rem;
+    padding: 1.25rem;
+    position: relative;
+    left: 22.5rem;
+    top: 2.5rem;
+}
