@@ -1,8 +1,10 @@
-.main {
+.main {display: flex;
+    justify-content: center;
+    flex-direction: column;
     height: 37.813rem;
     position: relative;
     align-items: center;
-    padding-top: 3.125rem;
+    
 }
 
 .head {
@@ -14,14 +16,13 @@
 
 .head h1 {
     position: relative;
-    left: 34.375rem;
+    
 }
 .input-box{ 
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    left: 21.875rem;
     width: 45rem;
     height: 16.563rem;
     border-radius: 0.625rem;
@@ -68,7 +69,7 @@
     position: relative;
     color: white;
     top: -6.25rem;
-    left: 40.625rem;
+    
 }
 .para{
     height: auto;
@@ -76,6 +77,5 @@
     padding: 1.25rem;
     position: relative;
     text-align: center;
-    left: 22.5rem;
     top: 2.5rem;
 }
