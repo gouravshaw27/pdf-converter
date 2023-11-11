@@ -51,6 +51,7 @@
     height: 2.5rem;
     border: 0.125rem;
     border-radius: 5px 0px 0px 5px;
+    pointer-events: none;
 }
 .expand{
     font-size: 1.25rem;
@@ -74,6 +75,7 @@
     width: 43.75rem;
     padding: 1.25rem;
     position: relative;
+    text-align: center;
     left: 22.5rem;
     top: 2.5rem;
 }
