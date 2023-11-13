@@ -17,10 +17,10 @@ const Navbar = () => {
       </div>
       
         <ul className="nav-menu">
-          <li className={activeTab==='Convert'?'menu-item-active':""} onClick={()=>{setActiveTab('Convert')}}><Link style={{textDecoration:'none', color:'#626262'}}to='/'>Convert</Link>{activeTab==='Convert'?<div></div>:<></>}</li>
-          <li className={activeTab==='Split'?'menu-item-active':""} onClick={()=>{setActiveTab('Split')}}>Split{activeTab==='Split'?<div></div>:<></>}</li>
-          <li className={activeTab==='Compress'?'menu-item-active':""} onClick={()=>{setActiveTab('Compress')}}>Compress{activeTab==='Compress'?<div></div>:<></>}</li>
-          <li className={activeTab==='Contact-us'?'menu-item-active':""} onClick={()=>{setActiveTab('Contact-us')}}>Contact-us{activeTab==='Contact-us'?<div></div>:<></>}</li>
+          <li className={activeTab==='Convert'?'menu-item-active':""} onClick={()=>{setActiveTab('Convert')}}><Link style={{textDecoration:'none', color:'#626262'}}to='/Convert'>Convert</Link>{activeTab==='Convert'?<div></div>:<></>}</li>
+          <li className={activeTab==='Split'?'menu-item-active':""} onClick={()=>{setActiveTab('Split')}}><Link style={{textDecoration:'none', color:'#626262'}}to='/Split'>Split</Link>{activeTab==='Split'?<div></div>:<></>}</li>
+          <li className={activeTab==='Compress'?'menu-item-active':""} onClick={()=>{setActiveTab('Compress')}}><Link style={{textDecoration:'none', color:'#626262'}}to='/compress'>Compress</Link>{activeTab==='Compress'?<div></div>:<></>}</li>
+          <li className={activeTab==='Contact-us'?'menu-item-active':""} onClick={()=>{setActiveTab('Contact-us')}}><Link style={{textDecoration:'none', color:'#626262'}}to='/Contact'>Contact-us</Link>{activeTab==='Contact-us'?<div></div>:<></>}</li>
         </ul>
       <div className="log-in">
         <Link to='/login'><button className='btn btn-outline-danger'>Log-in</button></Link>
