@@ -4,11 +4,11 @@ import './login.css'
 
 const Login = () => {
   return (
-    <div className='login'>
+    <div className='login d-flex'>
+            <img className='img' src={Logo} alt="" />
         <div className="container">
           <div className="head">
             <h2>Log-in</h2>
-            <img src={Logo} alt="" />
             </div>
             <div className="fields">
                 <input type="text" placeholder='Your Name' />

@@ -7,7 +7,7 @@ import { Outlet,Link } from 'react-router-dom';
 
 const Navbar = () => {
 
-  const[activeTab,setActiveTab] = useState('Convert');
+  const[activeTab,setActiveTab] = useState('');
   
   return (
     <div className="navbar">
@@ -23,7 +23,7 @@ const Navbar = () => {
           <li className={activeTab==='Contact-us'?'menu-item-active':""} onClick={()=>{setActiveTab('Contact-us')}}><Link style={{textDecoration:'none', color:'#626262'}}to='/Contact'>Contact-us</Link>{activeTab==='Contact-us'?<div></div>:<></>}</li>
         </ul>
       <div className="log-in">
-        <Link to='/login'><button className='btn btn-outline-danger'>Log-in</button></Link>
+        <Link to='/login'><button className='btn btn-outline-danger' onClick={()=>{setActiveTab('login')}}>{activeTab==='login'?<div></div>:<></>}Log-in</button></Link>
         </div>
         
         <Outlet/>

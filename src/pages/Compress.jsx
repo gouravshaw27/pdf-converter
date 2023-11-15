@@ -6,6 +6,8 @@ const Compress = () => {
 
   const data = {
     name : "PDF Compresser",
+    backgroundColor1:"#132043",
+    backgroundColor2:"#1F4172"
   };
   return (
     <HeroSection {...data}/>

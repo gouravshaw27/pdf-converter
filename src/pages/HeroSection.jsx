@@ -2,7 +2,13 @@ import React from 'react'
 import './HeroSection.css'
 
 const HeroSection = ({name,backgroundColor1,backgroundColor2}) => {
-
+  
+  HeroSection.defaultProps = {
+    name: 'Pdf Converter',
+    backgroundColor1:"#774360",
+    backgroundColor2:"#cd4e94"
+  };
+  
   return (
     <>
    
@@ -33,10 +39,5 @@ const HeroSection = ({name,backgroundColor1,backgroundColor2}) => {
   )
 }
 
-HeroSection.defaultProps = {
-  name: 'Pdf Converter',
-  backgroundColor1:"#774360",
-  backgroundColor2:"#cd4e94"
-};
 
 export default HeroSection
