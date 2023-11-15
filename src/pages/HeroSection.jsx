@@ -1,19 +1,18 @@
 import React from 'react'
 import './HeroSection.css'
 
-const HeroSection = (props) => {
+const HeroSection = ({name,backgroundColor1,backgroundColor2}) => {
 
- 
   return (
     <>
    
     <div className='main'>
       <div className="head">
-        <h1>{props.name}</h1>
+        <h1>{name}</h1>
       </div>
       <div>
-      <form  className='input-box'>
-      <label className="input">
+      <form  className='input-box' style={{backgroundColor:backgroundColor1}}>
+      <label className="input" style={{backgroundColor:backgroundColor2}}>
         <input type="file" />
         <button className='choose-file' type='button' >CHOOSE FILES</button>
         <button title="Expand menu" type='button' className="expand">^</button>
@@ -33,5 +32,11 @@ const HeroSection = (props) => {
     </>
   )
 }
+
+HeroSection.defaultProps = {
+  name: 'Pdf Converter',
+  backgroundColor1:"#774360",
+  backgroundColor2:"#cd4e94"
+};
 
 export default HeroSection
