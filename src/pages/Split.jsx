@@ -1,15 +1,16 @@
 import React from 'react'
+import './Split.css'
 import HeroSection from './HeroSection'
 
-const Convert = () => {
+
+
+const Split = () => {
     const data={
-        name: "PDF Converter",
-        
+        name: "PDF Spliter",
     }
-    
   return (
    <HeroSection {...data}/>
   )
 }
 
-export default Convert
+export default Split
